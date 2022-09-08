@@ -1,0 +1,36 @@
+h1 {
+    font-size: 100px;
+    color: aliceblue;
+    text-shadow: 3px 3px 7px black;
+}
+
+body {
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+    background-color: #000000;
+    background-image: url(img/1147170.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+    margin-left: -1425px;
+    box-shadow: 3px 3px 7px black;
+  }
+
+  img:hover {
+    transform: scale(1.03);
+}
+  .nomeFilme1 {
+    color: white;
+    margin-left: -1425px;
+    text-shadow: 3px 3px 3px black;
+    font-size: 23px;
+  }
